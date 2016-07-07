@@ -4,4 +4,5 @@ dependencies:
 
 test:
   override:
+    - uptime
     - cat /etc/lsb-release
